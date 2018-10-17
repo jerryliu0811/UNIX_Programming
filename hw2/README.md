@@ -22,7 +22,8 @@
 
 # RUNNING EXAMPLE:
    + $ ./hw2.o  
- pid   uid   gid  ppid  pgid   sid      tty St (img) cmd  
+```
+  pid   uid   gid  ppid  pgid   sid      tty St (img) cmd  
     1     0     0     0     1     1        -  S (systemd) /sbin/init splash  
     2     0     0     0     0     0        -  S (kthreadd)  
     3     0     0     2     0     0        -  S (ksoftirqd/0)  
@@ -41,3 +42,4 @@
 26372  1000  1000 26343 26343 26343    pts/4  S (sshd) sshd: chuang@pts/1  
 26373  1000  1000 26372 26373 26373    pts/1  S (bash) -bash  
 28846  1000  1000   402 28846 28846    pts/4  S (bash) -bash 
+```
