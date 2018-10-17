@@ -1,0 +1,13 @@
+service hw1 
+{
+    type            = UNLISTED
+    flags           = REUSE
+    socket_type     = stream
+    wait            = no
+    user            = root
+    server          = /usr/sbin/chroot
+    server_args     = /home/jerry/UNIX/hw1/0656508 /hw1.o 1000 1000
+    log_on_failure      += USERID
+    disable         = no 
+    port            = 33445
+}
